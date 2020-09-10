@@ -46,11 +46,7 @@ xdotool key Tab
 # Press Join button
 xdotool key space
 
-# Wait for popup
-sleep 5
-
-# Select Join with Computer Audio
-xdotool key Tab Tab
-
-# Press Join
-xdotool key space
+# We have now joined the zoom call.
+# All that remains to do is record the screen.
+# https://trac.ffmpeg.org/wiki/Capture/Desktop
+# The above link shows how to do that with ffmpeg.
