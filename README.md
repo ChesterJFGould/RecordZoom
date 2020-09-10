@@ -5,6 +5,7 @@ Records a given Zoom call. Pass the room id as the first argument and the room p
 + [xdo](https://github.com/baskerville/xdo)
 + [xdotool](https://www.semicomplete.com/projects/xdotool/)
 + [ffmpeg](https://ffmpeg.org/)
++ [zoom](https://zoom.us/download?os=linux)
 
 # TODO
 + Add recording mechanism using ffmpeg to end of script.
