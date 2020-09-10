@@ -33,3 +33,24 @@ xdotool key Tab Tab Tab Tab Tab
 
 # Press Join button
 xdotool key space
+
+# Wait for popup
+sleep 1
+
+# Enter password passed in as second argument
+xdotool type $2
+
+# Select Join button
+xdotool key Tab
+
+# Press Join button
+xdotool key space
+
+# Wait for popup
+sleep 5
+
+# Select Join with Computer Audio
+xdotool key Tab Tab
+
+# Press Join
+xdotool key space
