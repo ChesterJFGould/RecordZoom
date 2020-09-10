@@ -7,7 +7,9 @@ zoom &
 sleep 3
 
 # Focus the window
-xdotool search Zoom | head -n 1 | xargs xdo activate
+windowId=$(xdotool search Zoom | head -n 1)
+
+xdo activate $windowId
 
 # Focus Join Button, press tab 10 times
 # Could be a loop but since we know it's 10 times this is faster
